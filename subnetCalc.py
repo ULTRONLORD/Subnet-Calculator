@@ -90,7 +90,7 @@ def subnet_calculator(ip_with_prefix):
                     print("\n")
 
                     # Ask to save to file
-                    save_choice = input("💾 Do you want to save these IPs to a file? (y/n): ").lower()
+                    save_choice = input(" Do you want to save these IPs to a file? (y/n): ").lower()
                     if save_choice == "y":
                         filename = "subnet_ips.txt"
                         with open(filename, "w") as f:
@@ -126,7 +126,7 @@ def subnet_calculator(ip_with_prefix):
 # MAIN PROGRAM
 # ----------------------------------------
 def main():
-    print("\n📡 Subnet Calculator Project\n")
+    print("\n📡 Subnet Calculator\n")
 
     while True:
         while True:
