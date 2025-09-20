@@ -115,7 +115,7 @@ def subnet_calculator(ip_with_prefix):
                 except ValueError:
                     print("⚠ Invalid number entered.\n")
 
-        return True  # success
+        return True  # success  #yipee
 
     except ValueError as e:
         print(f"❌ Invalid input '{ip_with_prefix}': {e}\n")
